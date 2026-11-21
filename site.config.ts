@@ -52,7 +52,7 @@ export default {
   // 4. NAVBAR
   // ──────────────────────────────────────────────────────────
   nav: {
-    logo: 'YOURNAME.',
+    logo: 'YourName',
     connectLabel: 'Connect',
     // Link tambahan di navbar (CV, deck, dll.). Hapus isinya kalau tidak perlu.
     extraLinks: [
@@ -80,7 +80,7 @@ export default {
   featured: {
     eyebrow: 'Selected Work',
     titleBefore: 'Featured',
-    titleHighlight: 'work.',
+    titleHighlight: 'work',
     linkLabel: 'See all work',
     emptyText: 'No featured projects yet.',
     maxItems: 3,
@@ -88,14 +88,14 @@ export default {
 
   work: {
     titleBefore: 'Explore',
-    titleHighlight: 'my work.',
+    titleHighlight: 'my work',
     worksLabel: 'works', // tulisan di samping jumlah karya, mis. "5 works"
   },
 
   about: {
     badge: 'Who Am I?',
     headingBefore: 'A little',
-    headingHighlight: 'about me.',
+    headingHighlight: 'about me',
     photo: '/placeholder/profile.webp', // ganti dengan fotomu (rasio 4:5 paling pas)
     // Tiap item = satu paragraf
     paragraphs: [
@@ -121,7 +121,7 @@ export default {
     show: true,
     eyebrow: 'Experience',
     titleBefore: 'My',
-    titleHighlight: 'journey.',
+    titleHighlight: 'journey',
     nowLabel: 'NOW', // tulisan untuk entri yang masih berjalan
     resumeLabel: 'Resume', // tombol di kanan judul; kosongkan `resumeUrl` kalau tidak perlu
     resumeUrl: '',
@@ -154,7 +154,7 @@ export default {
   contact: {
     eyebrow: 'Get in touch',
     headingBefore: 'have a project in mind?',
-    headingHighlight: 'let\'s talk.',
+    headingHighlight: 'let\'s talk',
     ctaLabel: 'SAY HELLO', // tombol ke WhatsApp (kalau profile.whatsapp diisi) atau ke email
     footerTagline: 'Thanks for stopping by. Let\'s make something great together.',
     venturesLabel: 'My Ventures', // kosongkan `ventures` kalau tidak perlu

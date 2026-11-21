@@ -30,8 +30,8 @@ const socialIcon = (platform) => `ph:${String(platform).toLowerCase()}-logo`
         <span class="floaty absolute right-[9%] bottom-[16%] hidden text-5xl text-white/80 md:block" style="--r:12deg; animation-delay:1s"><Icon name="ph:sparkle-fill" /></span>
 
         <span class="inline-block rounded-full bg-white/80 px-4 py-1.5 text-[12px] font-bold uppercase tracking-[0.2em] text-[#B24D74]">{{ contact.eyebrow }}</span>
-        <h2 class="f-display m-0 mx-auto mt-5 max-w-3xl text-4xl font-light leading-[1.15] tracking-tight md:text-6xl">
-          {{ contact.headingBefore }} <span class="f-script text-[1.15em] font-semibold text-[#E8789F]">{{ contact.headingHighlight }}</span>
+        <h2 class="f-display m-0 mx-auto mt-5 max-w-3xl text-4xl font-semibold leading-[1.15] tracking-tight md:text-6xl">
+          {{ contact.headingBefore }} <span class="f-script text-[1.4em] font-normal text-[#E8789F]">{{ contact.headingHighlight }}</span>
         </h2>
         <a :href="ctaHref" :target="ctaExternal ? '_blank' : undefined" rel="noopener noreferrer" class="btn-pill mt-9 bg-white !px-9 !py-4 text-[#4A3548] shadow-[0_16px_36px_-14px_rgba(74,53,72,0.45)] hover:-translate-y-0.5 hover:text-[#E8789F]">
           {{ contact.ctaLabel }}

@@ -61,7 +61,7 @@ onUnmounted(() => {
     <nav class="fixed left-1/2 top-4 z-[1000] flex w-[calc(100%-2rem)] max-w-5xl -translate-x-1/2 items-center justify-between rounded-full border border-white/80 bg-white/75 px-5 py-2.5 shadow-[0_14px_40px_-18px_rgba(232,120,159,0.55)] backdrop-blur-xl md:px-7">
 
       <!-- Logo -->
-      <a href="#" @click.prevent="scrollToSection('hero-section')" class="f-script text-[26px] font-bold leading-none text-[#E8789F]">{{ nav.logo }}</a>
+      <a href="#" @click.prevent="scrollToSection('hero-section')" class="f-script text-[36px] font-normal leading-none text-[#E8789F]">{{ nav.logo }}</a>
 
       <!-- Menu desktop -->
       <ul class="m-0 hidden list-none items-center gap-1 p-0 md:flex">

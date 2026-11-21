@@ -116,11 +116,11 @@ export default defineNuxtConfig({
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
       ],
       noscript: [
-        { innerHTML: '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Nunito:wght@400;500;600;700&family=Dancing+Script:wght@500;600;700&display=swap">' },
+        { innerHTML: '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Luxurious+Script&display=swap">' },
       ],
       script: [
         // CSS font disisipkan lewat skrip supaya tidak memblokir render
-        { innerHTML: "(function(){var l=document.createElement('link');l.rel='stylesheet';l.href='https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600&family=Nunito:wght@400;500;600;700&family=Dancing+Script:wght@500;600;700&display=swap';document.head.appendChild(l)})()", tagPosition: 'head' },
+        { innerHTML: "(function(){var l=document.createElement('link');l.rel='stylesheet';l.href='https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Luxurious+Script&display=swap';document.head.appendChild(l)})()", tagPosition: 'head' },
         {
           type: 'application/ld+json',
           innerHTML: JSON.stringify({

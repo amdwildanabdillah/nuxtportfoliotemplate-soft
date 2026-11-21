@@ -79,7 +79,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
           <Icon name="ph:arrow-left" class="text-base transition-transform group-hover:-translate-x-0.5" />
           <span>{{ cat.name }}</span>
         </NuxtLink>
-        <NuxtLink to="/" class="f-script text-[26px] font-bold leading-none text-[#E8789F]">{{ nav.logo }}</NuxtLink>
+        <NuxtLink to="/" class="f-script text-[36px] font-normal leading-none text-[#E8789F]">{{ nav.logo }}</NuxtLink>
       </div>
     </header>
 
@@ -88,7 +88,7 @@ onUnmounted(() => window.removeEventListener('scroll', onScroll))
         <!-- Judul -->
         <div class="mb-10 md:mb-14" data-aos="fade-up">
           <span class="chip">{{ project.sub_categories?.name || cat.name }}</span>
-          <h1 class="f-display m-0 my-5 text-4xl font-light leading-tight tracking-tight md:text-6xl">{{ project.title }}</h1>
+          <h1 class="f-display m-0 my-5 text-4xl font-semibold leading-tight tracking-tight md:text-6xl">{{ project.title }}</h1>
           <p v-if="project.desc_short" class="m-0 max-w-2xl text-base leading-relaxed text-[#8B7385]">{{ project.desc_short }}</p>
 
           <div v-if="project.live_url || project.github_url" class="mt-8 flex flex-wrap gap-3">

@@ -20,8 +20,8 @@ const stack = (p) => (Array.isArray(p.tech_stack) ? p.tech_stack : String(p.tech
       <div class="mb-10 flex flex-col gap-4 md:mb-14 md:flex-row md:items-end md:justify-between" data-aos="fade-up">
         <div>
           <span class="chip chip-lilac">{{ cfg.eyebrow }}</span>
-          <h2 class="f-display m-0 mt-4 text-4xl font-light leading-tight tracking-tight md:text-6xl">
-            {{ cfg.titleBefore }} <span class="f-script text-gradient text-[1.15em] font-semibold">{{ cfg.titleHighlight }}</span>
+          <h2 class="f-display m-0 mt-4 text-4xl font-semibold leading-tight tracking-tight md:text-6xl">
+            {{ cfg.titleBefore }} <span class="f-script text-gradient text-[1.4em] font-semibold">{{ cfg.titleHighlight }}</span>
           </h2>
         </div>
         <NuxtLink :to="allLink" class="btn-pill btn-ghost shrink-0 self-start md:self-auto">

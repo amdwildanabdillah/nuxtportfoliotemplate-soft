@@ -45,13 +45,13 @@ html { scroll-padding-top: 88px; }
 body {
   background-color: var(--bg);
   color: var(--ink);
-  font-family: 'Nunito', system-ui, sans-serif;
+  font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
   overflow-x: hidden;
   min-height: 100vh;
 }
 /* Huruf: judul serif lembut, aksen tulisan tangan */
-.f-display { font-family: 'Fraunces', Georgia, serif; font-optical-sizing: auto; }
-.f-script { font-family: 'Dancing Script', cursive; }
+.f-display { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; letter-spacing: -0.02em; }
+.f-script { font-family: 'Luxurious Script', cursive; }
 
 /* 2. LATAR: gumpalan warna lembut (gradien radial, ringan) */
 .blob { position: absolute; border-radius: 50%; pointer-events: none; z-index: 0; }

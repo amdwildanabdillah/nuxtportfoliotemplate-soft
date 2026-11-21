@@ -151,8 +151,8 @@ onUnmounted(() => {
 
     <main class="relative z-10 mx-auto w-full max-w-6xl px-5 pb-32 pt-36 md:px-10 md:pt-44">
       <div class="mb-14 border-b border-[#4A3548]/10 pb-10 md:mb-20 md:pb-12" data-aos="fade-up">
-        <h1 class="f-display m-0 mb-4 text-5xl font-light tracking-tight md:text-[5.5rem]">
-          {{ isLoading ? 'Loading...' : (currentCategory.name || 'Category') }}<span class="f-script text-gradient font-semibold">.</span>
+        <h1 class="f-display m-0 mb-4 text-5xl font-semibold tracking-tight md:text-[5.5rem]">
+          {{ isLoading ? 'Loading...' : (currentCategory.name || 'Category') }}
         </h1>
         <p class="m-0 max-w-lg text-base leading-relaxed text-[#8B7385]">{{ categoryDesc }}</p>
       </div>

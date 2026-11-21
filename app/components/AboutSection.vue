@@ -17,7 +17,7 @@ const techGroups = about.techGroups
             <NuxtImg :src="about.photo" :alt="profile.name" width="560" height="700" sizes="sm:90vw md:340px" format="webp" loading="lazy" class="h-full w-full object-cover" />
           </div>
           <div class="absolute -bottom-4 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-white px-5 py-2.5 text-[13px] font-bold shadow-xl">
-            <span class="mr-2 inline-block h-2 w-2 rounded-full bg-[#9F85E8]"></span>{{ profile.name }}
+            {{ profile.name }}
           </div>
         </div>
       </div>
@@ -25,8 +25,8 @@ const techGroups = about.techGroups
       <!-- Teks -->
       <div class="text-center md:text-left">
         <span class="chip" data-aos="fade-up">{{ about.badge }}</span>
-        <h2 class="f-display m-0 mt-4 text-4xl font-light leading-tight tracking-tight md:text-6xl" data-aos="fade-up" data-aos-delay="80">
-          {{ about.headingBefore }} <span class="f-script text-gradient text-[1.15em] font-semibold">{{ about.headingHighlight }}</span>
+        <h2 class="f-display m-0 mt-4 text-4xl font-semibold leading-tight tracking-tight md:text-6xl" data-aos="fade-up" data-aos-delay="80">
+          {{ about.headingBefore }} <span class="f-script text-gradient text-[1.4em] font-semibold">{{ about.headingHighlight }}</span>
         </h2>
         <div class="mt-6 space-y-4 text-[15px] leading-[1.9] text-[#8B7385]" data-aos="fade-up" data-aos-delay="160">
           <p v-for="(para, i) in about.paragraphs" :key="i" class="m-0">{{ para }}</p>

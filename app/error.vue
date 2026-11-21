@@ -26,7 +26,7 @@ const links = [
     <main class="relative z-10 flex w-full max-w-3xl flex-col items-center text-center">
       <span class="chip chip-lilac mb-4">error {{ code }}</span>
 
-      <h1 class="f-display m-0 select-none text-[7rem] font-light leading-none tracking-tight sm:text-[10rem] md:text-[13rem]">
+      <h1 class="f-display m-0 select-none text-[7rem] font-semibold leading-none tracking-tight sm:text-[10rem] md:text-[13rem]">
         <span class="text-gradient">{{ code }}</span>
       </h1>
 

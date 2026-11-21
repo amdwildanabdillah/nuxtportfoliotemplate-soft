@@ -18,7 +18,7 @@ const tags = computed(() => String(hero.tagline || '').split('|').map(t => t.tri
       <div class="order-2 text-center md:order-1 md:text-left">
         <span class="chip fade-in-down">{{ hero.eyebrow }}</span>
 
-        <h1 class="f-display m-0 mt-6 text-[2.9rem] font-light leading-[1.08] tracking-tight sm:text-6xl md:text-[4.4rem]">
+        <h1 class="f-display m-0 mt-6 text-[2.9rem] font-semibold leading-[1.08] tracking-tight sm:text-6xl md:text-[4.4rem]">
           <span class="block fade-in-up">{{ hero.line1 }}</span>
           <span class="f-script text-gradient block pt-1 text-[3.6rem] font-semibold leading-[1.1] sm:text-7xl md:text-[5.6rem] fade-in-up delay-1">{{ hero.line2 }}</span>
         </h1>
@@ -50,7 +50,7 @@ const tags = computed(() => String(hero.tagline || '').split('|').map(t => t.tri
           <span class="floaty absolute -left-4 top-[18%] flex h-12 w-12 items-center justify-center rounded-full bg-white text-xl text-[#E8789F] shadow-lg" style="--r:-8deg"><Icon name="ph:heart-fill" /></span>
           <span class="floaty absolute -right-3 top-[42%] flex h-11 w-11 items-center justify-center rounded-full bg-white text-lg text-[#9F85E8] shadow-lg" style="--r:8deg; animation-delay:1.2s"><Icon name="ph:sparkle-fill" /></span>
           <div class="absolute -bottom-4 left-1/2 -translate-x-1/2 whitespace-nowrap rounded-full bg-white px-5 py-2.5 text-[13px] font-bold text-[#4A3548] shadow-xl">
-            <span class="mr-2 inline-block h-2 w-2 rounded-full bg-[#E8789F]"></span>{{ profile.name }}
+            {{ profile.name }}
           </div>
         </div>
       </div>

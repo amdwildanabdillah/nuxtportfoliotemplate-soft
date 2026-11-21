@@ -42,8 +42,8 @@ const fallbackImg = (index) => `/placeholder/cover-${(index % 3) + 1}.webp`
 
     <div class="relative z-10 mx-auto w-full max-w-6xl">
       <div class="mb-10 flex flex-col gap-4 md:mb-14 md:flex-row md:items-end md:justify-between" data-aos="fade-up">
-        <h2 class="f-display m-0 text-4xl font-light leading-tight tracking-tight md:text-6xl">
-          {{ cfg.titleBefore }} <span class="f-script text-gradient text-[1.15em] font-semibold">{{ cfg.titleHighlight }}</span>
+        <h2 class="f-display m-0 text-4xl font-semibold leading-tight tracking-tight md:text-6xl">
+          {{ cfg.titleBefore }} <span class="f-script text-gradient text-[1.4em] font-semibold">{{ cfg.titleHighlight }}</span>
         </h2>
         <!-- Nama kategori sebagai pil -->
         <ul class="m-0 flex list-none flex-wrap gap-2 p-0">
