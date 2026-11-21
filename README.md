@@ -5,7 +5,7 @@ Dibuat dengan **Nuxt 4 + Tailwind**. Semua isi (teks, project, kontak, sosmed) d
 
 *An open-source portfolio template. Edit one config file, deploy for free. English notes are at the bottom.*
 
-**Demo langsung:** segera hadir (deploy sendiri lewat Vercel, ikuti panduan di bawah)
+**Demo langsung: <https://nuxtportfoliotemplate-soft.vercel.app>**
 
 ---
 
