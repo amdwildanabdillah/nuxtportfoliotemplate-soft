@@ -60,7 +60,7 @@ body {
 .blob-peach { background: radial-gradient(circle, rgba(255, 214, 190, 0.7) 0%, transparent 68%); }
 
 /* Teks bergradasi pink -> lilac */
-.text-gradient { background: linear-gradient(100deg, var(--pink), var(--violet)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; display: inline-block; }
+.text-gradient { background: linear-gradient(100deg, var(--pink), var(--violet)); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; color: transparent; display: inline-block; padding: 0.05em 0.18em 0.1em 0.08em; margin: 0 -0.1em; }
 
 /* Kartu putih dengan bayangan pink lembut */
 .card-soft { background: #fff; border: 1px solid rgba(255, 255, 255, 0.9); border-radius: 28px; box-shadow: var(--shadow); }

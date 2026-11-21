@@ -66,7 +66,7 @@ export default {
   hero: {
     eyebrow: 'Your Name · Your City',
     line1: 'Your Headline',
-    line2: 'Goes Here.', // baris kedua yang diberi highlight
+    line2: 'Goes Here', // baris kedua yang diberi highlight
     description: 'Write one or two sentences about what you do and who you help.',
     primaryButton: 'See Projects', // menggulir ke bagian project
     secondaryButton: 'Let\'s Talk', // membuka WhatsApp (butuh profile.whatsapp)
