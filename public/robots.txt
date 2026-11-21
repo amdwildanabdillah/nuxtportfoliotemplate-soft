@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+
+# Ganti dengan domainmu
+Sitemap: https://example.com/sitemap.xml
