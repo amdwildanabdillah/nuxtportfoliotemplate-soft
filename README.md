@@ -38,7 +38,7 @@ Cek di terminal: `node -v` harus menampilkan `v20` ke atas.
 
 ```bash
 # 1. Ambil template (atau klik tombol "Use this template" di GitHub)
-git clone https://github.com/amdwildanabdillah/nuxtportfoliotemplate.git portfolio-ku
+git clone https://github.com/amdwildanabdillah/nuxtportfoliotemplate-soft.git portfolio-ku
 cd portfolio-ku
 
 # 2. Install
@@ -241,7 +241,7 @@ file `LICENSE` ikut disertakan.
 Di footer ada tulisan kecil *"Template by Wildan · Vixel Creative"*. Kami senang kalau dibiarkan, tapi
 kalau mau dihapus cukup `watermark.show: false` di `site.config.ts`.
 
-Font: [Clash Display & General Sans](https://www.fontshare.com) (Fontshare, gratis untuk penggunaan pribadi dan komersial). Ikon: Phosphor.
+Font: [Plus Jakarta Sans](https://fonts.google.com/specimen/Plus+Jakarta+Sans) dan [Luxurious Script](https://fonts.google.com/specimen/Luxurious+Script) (Google Fonts, lisensi OFL) untuk tampilan publik; [Clash Display](https://www.fontshare.com) (Fontshare, gratis untuk penggunaan pribadi dan komersial) untuk panel admin. Ikon: Phosphor.
 
 Dibuat oleh **Ahmad Wildan Abdillah** · [idanabdll.me](https://idanabdll.me)
 
